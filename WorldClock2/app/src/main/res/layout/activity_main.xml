@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEFD5"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="353dp"
+        android:layout_height="463dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.329">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="10dp">
+
+
+            <LinearLayout
+                android:id="@+id/dubai"
+                android:layout_width="match_parent"
+                android:layout_height="107dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/timezone1"
+                        android:layout_width="220dp"
+                        android:layout_height="40dp"
+                        android:text="TextView"
+                        android:textColor="#EE7D26"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/country1"
+                        android:layout_width="220dp"
+                        android:layout_height="20dp"
+                        android:text="TextView"
+                        android:textColor="#F4A460"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/clock1"
+                        android:layout_width="220dp"
+                        android:layout_height="45dp"
+                        android:text="TextView"
+                        android:textColor="#FFD700"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="106dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/dubai_a"
+                    app:srcCompat="@mipmap/ic_launcher_round" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/london"
+                android:layout_width="match_parent"
+                android:layout_height="107dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/timezone2"
+                        android:layout_width="220dp"
+                        android:layout_height="40dp"
+                        android:text="TextView"
+                        android:textColor="#EE7D26"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/country2"
+                        android:layout_width="220dp"
+                        android:layout_height="20dp"
+                        android:text="TextView"
+                        android:textColor="#F4A460"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/clock2"
+                        android:layout_width="220dp"
+                        android:layout_height="45dp"
+                        android:text="TextView"
+                        android:textColor="#FFD700"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/image2"
+                    android:layout_width="106dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/london_a"
+                    app:srcCompat="@mipmap/ic_launcher_round" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/newyork"
+                android:layout_width="match_parent"
+                android:layout_height="107dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/timezone4"
+                        android:layout_width="220dp"
+                        android:layout_height="40dp"
+                        android:text="TextView"
+                        android:textColor="#EE7D26"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/country4"
+                        android:layout_width="220dp"
+                        android:layout_height="20dp"
+                        android:text="TextView"
+                        android:textColor="#F4A460"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/clock4"
+                        android:layout_width="220dp"
+                        android:layout_height="45dp"
+                        android:text="TextView"
+                        android:textColor="#FFD700"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/image4"
+                    android:layout_width="106dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ny_a"
+                    app:srcCompat="@mipmap/ic_launcher_round" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/singapore"
+                android:layout_width="match_parent"
+                android:layout_height="107dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/timezone6"
+                        android:layout_width="220dp"
+                        android:layout_height="40dp"
+                        android:text="TextView"
+                        android:textColor="#EE7D26"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/country6"
+                        android:layout_width="220dp"
+                        android:layout_height="20dp"
+                        android:text="TextView"
+                        android:textColor="#F4A460"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/clock6"
+                        android:layout_width="220dp"
+                        android:layout_height="45dp"
+                        android:text="TextView"
+                        android:textColor="#FFD700"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/image6"
+                    android:layout_width="106dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/sing_a"
+                    app:srcCompat="@mipmap/ic_launcher_round" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/syd"
+                android:layout_width="match_parent"
+                android:layout_height="107dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/timezone5"
+                        android:layout_width="220dp"
+                        android:layout_height="40dp"
+                        android:text="TextView"
+                        android:textColor="#EE7D26"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/country5"
+                        android:layout_width="220dp"
+                        android:layout_height="20dp"
+                        android:text="TextView"
+                        android:textColor="#F4A460"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/clock5"
+                        android:layout_width="220dp"
+                        android:layout_height="45dp"
+                        android:text="TextView"
+                        android:textColor="#FFD700"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/image5"
+                    android:layout_width="106dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/syd_a"
+                    app:srcCompat="@mipmap/ic_launcher_round" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tokyo"
+                android:layout_width="match_parent"
+                android:layout_height="107dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/timezone3"
+                        android:layout_width="220dp"
+                        android:layout_height="40dp"
+                        android:text="TextView"
+                        android:textColor="#EE7D26"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/country3"
+                        android:layout_width="220dp"
+                        android:layout_height="20dp"
+                        android:text="TextView"
+                        android:textColor="#F4A460"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/clock3"
+                        android:layout_width="220dp"
+                        android:layout_height="45dp"
+                        android:text="TextView"
+                        android:textColor="#FFD700"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/image3"
+                    android:layout_width="106dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/tokyo_a"
+                    app:srcCompat="@mipmap/ic_launcher_round" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="268dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.412"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/changeFormat12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFA500"
+            android:text="12HR"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/changeFormat24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/changeFormat24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="28dp"
+            android:background="#FFA500"
+            android:text="24HR"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
